@@ -1,0 +1,72 @@
+html::-webkit-scrollbar{
+display: none;
+}
+body{
+    background: linear-gradient(#0e0f13, #0098a3);
+    background-repeat: no-repeat;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+   
+}
+main {
+    display: flex;
+   
+}
+section{
+    background-color: #1d1e27;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 40px  #1d1e27;
+}
+section a{
+    color: white;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+   
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+
+}
+ul li {
+    margin-left: 24px;
+}
+.social-icon{
+    flex-direction: row;
+    gap: 20px;
+
+}
+.cv{
+    position: relative; top: 70px;
+    width: 120px;
+    height: 46px;
+    border-radius: 20px;
+    border: none;
+    background-color: #1ab9c1;
+    box-shadow: 0 5px 10px #1ab9c1;
+    font-size: 17px;
+    
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    position: relative; right: 260px;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 30px;
+
+}
